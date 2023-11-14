@@ -8,12 +8,12 @@
 
 ## Progress
 
--[x] Login screen
+- [x] Login screen
 
--[x] Database choice
+- [x] Database choice
 
--[x] Table choice 
+- [x] Table choice 
 
--[ ] Table element edition
+- [ ] Table element edition
 
--[ ] Table element removal
+- [ ] Table element removal
