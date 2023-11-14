@@ -17,3 +17,21 @@
 -[ ] Table element edition
 
 -[ ] Table element removal
+
+-[ ] Button for returning to login screen
+
+-[ ] Simple options panel
+
+## Screenshots of working app
+
+### Login screen
+
+![Login screen](img/login_screen.png)
+
+### Login error info
+
+![Login error info](img/login_error_info.png)
+
+### Database screen
+
+![Database screen](img/database_screen.png)
