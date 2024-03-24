@@ -37,7 +37,6 @@ def load_listbox(connection: CMySQLConnection) -> Variable:
         for db_name in cursor:
             db_names.append(*db_name)
 
-        print(db_names)
         return Variable(
             value=db_names,
         )
