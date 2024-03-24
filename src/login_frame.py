@@ -6,14 +6,14 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter.messagebox import showinfo
 
-from main_window import MainWindow
+# from main_window import MainWindow
 
 
 class LoginFrame(tk.Frame):
-    def __init__(self, parent: tk.Frame, controller: MainWindow) -> None:
+    def __init__(self, parent: tk.Frame, controller) -> None:
         super().__init__(parent)
         self.parent: tk.Frame = parent
-        self.controller: MainWindow = controller
+        self.controller = controller
 
         self.host_name = tk.StringVar()
         self.user_name = tk.StringVar()
